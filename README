@@ -1,0 +1,24 @@
+
+Project requires: 
+	SBT 0.7.5 
+	Scala 2.8.1
+
+
+I can't find the plugin in the sonatype repository. 
+
+Running sbt hangs for me at 
+
+$ sbt
+Getting Scala 2.7.7 ...
+:: retrieving :: org.scala-tools.sbt#boot-scala
+	confs: [default]
+	2 artifacts copied, 0 already retrieved (9911kB/35ms)
+Getting org.scala-tools.sbt sbt_2.7.7 0.7.5 ...
+:: retrieving :: org.scala-tools.sbt#boot-app
+	confs: [default]
+	16 artifacts copied, 0 already retrieved (4271kB/21ms)
+[info] Recompiling plugin definition...
+[info] 	  Source analysis: 1 new/modified, 0 indirectly invalidated, 0 removed.
+[info] 
+[info] Updating plugins...
+
